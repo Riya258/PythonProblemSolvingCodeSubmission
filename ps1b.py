@@ -1,6 +1,5 @@
 # Name: Riya
 # REG. NO.: BS19BTCS005
-# Date: 3 Sep,2021
 # Time spend: 2:30 hours
 
 #Problem 2
