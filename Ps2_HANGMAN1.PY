@@ -54,21 +54,21 @@ while turns > 0:
         print("The word is: ", word)
         break
      
-    # if user has input the wrong alphabet then it will ask user to enter another alphabet
+                                  # if user has input the wrong alphabet then it will ask user to enter another alphabet
     guess = input("Devinez les personnages:")
      
-    # every input character will be stored in guesses
+                                   # every input character will be stored in guesses
     guesses += guess
      
-    # check input with the character in word
+                                   # check input with the character in word
     if guess not in word:
          
         turns -= 1
          
-        # if the character doesn’t match the word then “Wrong” will be given as output
+                                     # if the character doesn’t match the word then “Wrong” will be given as output
         print("Tort")
          
-        # this will print the number of turns left for the user
+                                      # this will print the number of turns left for the user
         print("You have", + turns, 'more guesses')
          
          
